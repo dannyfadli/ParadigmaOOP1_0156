@@ -17,9 +17,13 @@ public:
 	}
 
 	void tambahAnak(anak*);
-	void cetakANak();
+	void cetakAnak();
 };
-void ibu::tambahAnak()
+void ibu::tambahAnak(anak* pANak) 
+{
+	daftar_anak.push_back(pANak);
+}
+void ibu::cetakAnak()
 {
 	cout << "Daftar Anak dari Ibu\"" << this->nama << "\":\n";
 	for (auto& a : daftar_anak)
