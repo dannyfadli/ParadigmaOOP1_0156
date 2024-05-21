@@ -11,10 +11,10 @@ private:
 public:
     mahasiswa(int pId, string pNama, float pNilai) : id(pId), nama(pNama), nilai(pNilai)
     {
-
+        //member instlation list
     }
 
-    mahasiswa()
+    ~mahasiswa()
     {
         cout << "id    =" << id << endl;
         cout << "Nama  =" << nama << endl;
@@ -25,5 +25,6 @@ public:
 
 int main()
 {
-    
+    mahasiswa mhs(12, "Asroni", 90.5);
+    return 0;
 }
