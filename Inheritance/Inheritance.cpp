@@ -39,9 +39,9 @@ public:
     }
     string perknalan()
     {
-        return "Hallo, Nama Saya" + nama + "Dari Sekolah " + sekolah + "\n\n"
+        return "Hallo, Nama Saya" + nama + "Dari Sekolah " + sekolah + "\n\n";
     }
-
+};
 int main()
 {
     pelajar siswa1("Andi laksono", "SMAN 1 Bantul");
@@ -49,4 +49,3 @@ int main()
     cout << "Hasil = " << siswa1.jumlah(10, 90) <<  endl;
     return 0;
 }
-
