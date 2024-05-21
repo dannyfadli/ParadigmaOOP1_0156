@@ -130,7 +130,7 @@
     <ClCompile Include="komposisi.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\PaeadigmaOOP1_0156\jantung.h" />
+    <ClInclude Include="jantung.h" />
     <ClInclude Include="manusiar.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
