@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a07ec38d-2306-4d28-ad54-aeb25631a451}</ProjectGuid>
-    <RootNamespace>PaeadigmaOOP10156</RootNamespace>
+    <ProjectGuid>{6e5a1050-010d-4056-b4b5-28aae4a0925b}</ProjectGuid>
+    <RootNamespace>komposisi</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="PaeadigmaOOP1_0156.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="jantung.h" />
+    <ClCompile Include="komposisi.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
